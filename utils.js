@@ -1,5 +1,4 @@
 // bonus
-
-export function getImageurl(person) {
+export function getImageUrl(person) {
   return "https://i.imgur.com/" + person.ImageId + person.Imagesize + ".jpg";
 }
